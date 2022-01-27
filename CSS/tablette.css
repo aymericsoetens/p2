@@ -1,0 +1,109 @@
+@media screen and (max-width: 992px) {
+
+  .champs_de_recherche {
+    justify-content: left;
+    margin-bottom: 25px;
+  }
+  .filtres {
+    flex-wrap: wrap;
+  }
+  .txt_ico {
+    flex-wrap: wrap;
+}
+  #section_hebergement {
+    flex-direction: column;
+    margin-bottom: 25px;
+    border-radius: 0%;
+    align-items: center;
+  }
+  #hebergement {
+    width: 90%;
+    border-radius: 0%;
+  }
+  #populaires {
+    width: 90%;
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 0%;
+  }
+  .titre_graph {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+  }
+  .graph {
+    margin-right: 25px;
+    font-size: xx-large;
+  }
+  .article_populaire {
+    width: 90%;
+    margin: 15px auto;
+    flex-direction: row;
+  }
+  .box_hebergement {
+    flex-direction: column;
+    width: 90%;
+  }
+  .star_pop {
+    top: 55%;
+  }
+  
+  .box_activite {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  #section_activite_a_marseille {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  
+  }
+  .box_activite > a,
+  .box_activite > div {
+    width: 100%;
+    justify-content: space-around;
+  }
+  #vieux_port {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+  }
+  #pomegues {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+   
+  }
+  #frioul {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+   
+  }
+  #calanques {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+   
+  }
+  #notre_dame {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+    
+  }
+  #longchamp {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+ 
+   
+  }
+  footer ul{
+    
+    width: 100%;
+  }
+}

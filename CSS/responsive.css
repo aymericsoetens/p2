@@ -1,0 +1,276 @@
+
+/*******************header***************/
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size:25px;
+  }
+  #slogan{
+    margin-left: 30px;
+  }
+  #slogan p {
+    font-weight: normal;
+    font-size: 12pt;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .nav_hebergement,
+  .nav_activite {
+    border-bottom: 1px solid #aaa;
+  }
+  nav ul  {
+    width: 100%;
+}
+  nav ul li {
+    width: 50%;
+    padding: 10px 40px;
+}
+  nav ul li:hover {
+    border-bottom: 4px solid #0065fc;
+    border-top: 0px solid #0065fc;
+  }
+  .filtres {
+    flex-direction: column;
+    align-items: flex-start;
+   
+    margin: 10px;
+  }
+  .txt_ico {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ico_search {
+    display: flex;
+    visibility: visible;
+    font-size: 15pt;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    background-color: #0065fc;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+  }
+  .champs_de_recherche .ico_search{
+    display: block;
+  }
+  .search {
+    display: none;
+  }
+  .champs_de_recherche {
+    width: auto;
+    margin-left: 17px;
+  }
+
+  #site-search-input{
+    width: 65%;
+  }
+  .filtres p{
+    margin-right: 20px;
+  font-size: 12pt;
+  font-weight: bold;
+  }
+.filtres h2{
+  font-size: 12pt;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+  div .ico_info{
+    margin-left: 10px;
+  }
+  .info p{
+    font-size: 14pt;
+    padding: 0;
+  }
+  .info{
+    margin-left: 3px;
+  }
+  /*******************hebergement et populaire**********************/
+  
+  #title h2 {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    justify-content: center;
+    font-weight: bold;
+  }
+  #section_hebergement {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #hebergement {
+    background-color: white;
+    width: 100%; 
+  }
+  .titre_graph {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+  .graph {
+    margin-right: 30px;
+    font-size:18pt;
+  }
+  #populaires {
+    background-color: #f2f2f2;
+    width: 100%;
+    border-radius: 0;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  #populaires h2{
+    margin-bottom: 5px;
+  }
+  #populaires h3 {
+    font-weight: bold;
+    font-size: 14pt;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#populaires p{
+  margin-top: 5px;
+}
+  .article_populaire {
+    margin: 15px;
+  }
+  .bloc_hebergement {
+    box-shadow: 5px 5px 25px #aaa;
+    width: 89%;
+  }
+  .bloc_populaire {
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+   
+    margin-top: 0;
+  }
+  #article_hebergement {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+  }
+  #plus p {
+    font-size: 16pt;
+    font-weight: bold;
+  }
+  article{
+    width: 100%;
+  }
+  .star_pop {
+    display: flex;
+    color: #0065fc;
+    margin-left: 15px;
+    vertical-align: bottom;
+    position: relative;
+    top: 35%;
+  }
+
+  /***********************activites***************************/
+  #section_activite_a_marseille {
+  
+    padding-top: 0px;
+  }
+  .box_activite > a,
+  .box_activite > div {
+    width: 100%;
+  }
+  .box_activite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .titre_activite{
+    margin-left: 0px;
+  }
+  .activite {
+    display: flex;
+    box-shadow: 4px 4px 25px #aaa;
+  margin-left: 0;
+  margin-right: 0;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    align-items: center;
+  }
+  #vieux_port {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+  }
+  #pomegues {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+   
+  }
+  #frioul {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+   
+  }
+  #calanques {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+   
+  }
+  #notre_dame {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+   
+  }
+  #longchamp {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+  
+  }
+
+  /************************footer***********************/
+  
+  footer {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    height: 425px;
+  }
+  footer ul {
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  footer li{
+    margin-bottom: 3px;
+  }
+ .footer_hebergement{
+   margin: 0px;
+ }
+ .footer_assistance{
+   margin: 0px;
+  
+ }
+ footer a{
+ 
+   margin-left: 25px;
+ }
+ footer h3{
+   padding: 0;
+   margin-left: 30px;
+   margin-top: 10px;
+ }
+}
